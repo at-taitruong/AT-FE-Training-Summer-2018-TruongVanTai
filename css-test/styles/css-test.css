@@ -1,0 +1,343 @@
+.div1 {
+    margin: 0 auto;
+    height: 50vw;
+    width: 50vw;
+    background-color: #000000 ;
+    border-top: 1px solid #a4a4a4;      }
+.div2 {
+    position: relative;
+    height: 50vw;
+    width: 50vw;
+    border-bottom-left-radius: 5px;
+    background-color: #00ffff;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+#A {
+    position: absolute;
+    display: table;
+    height: 4vw;
+    width: 4vw;
+    background-color: red;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+#B {
+    position: absolute;
+    display: table;
+    height: 4vw;
+    width: 4vw;
+    border: 1px solid red;
+    background-color: yellow;
+    border-radius: 25%;
+    top: 0;
+    left: 23vw;
+    text-transform: uppercase;
+    text-align: right;
+}
+#C {
+    position: absolute;
+    display: table;
+    text-align: left;
+    height: 4vw;
+    width: 4vw;
+    background-color: #3700ff;
+    top: 0;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+}
+#D {
+    position: absolute;
+    display: table;
+    text-align: right;
+    height: 4vw;
+    width: 4vw;
+    background-color: #008700;
+    left: 0;
+    top: 23vw;
+    text-transform: uppercase;
+    font-size: 2vw;
+    border-right: 5px solid blue;
+}
+#E {
+    position: absolute;
+    display: table;
+    height: 6vw;
+    width: 6vw;
+    background-color: #ffa400;
+    top: 23vw;
+    left: 23vw;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2vw;
+}
+#F {
+    position: absolute;
+    display: table;
+    text-align: left;
+    height: 4vw;
+    width: 4vw;
+    background-color: #8d0083;
+    top: 23vw;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+#G {
+    position: absolute;
+    display: table;
+    text-align: right;
+    height: 4vw;
+    width: 4vw;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    font-size: 2vw;
+    color: #008700;
+}
+#H {
+    position: absolute;
+    display: table;
+    text-align: left;
+    height: 4vw;
+    width: 4vw;
+    left: 23vw;
+    bottom: 0;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 2vw;
+    color: white;
+    margin-bottom: 2vw;
+}
+#I {
+    position: absolute;
+    text-align: center;
+    display: table;
+    height: 8vw;
+    width: 4vw;
+    right: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    font-size: 2vw;
+    color: red;
+    z-index: 2
+}
+#I1 {
+    position: absolute;
+    display: table;
+    height: 4vw;
+    width: 4vw;
+    right: 0;
+    bottom: 0;
+    background-color: #787878;
+    z-index: 1;
+}
+@media screen and (max-width: 1024px){
+  .div1 {
+    height: 60vw;
+    width: 60vw;     
+    }
+    .div2 {
+        height: 60vw;
+        width: 60vw;  
+    }
+    #A {
+        height: 5vw;
+        width: 5vw;
+        font-size: 2.5vw;
+    }
+    #B {
+        height: 5vw;
+        width: 5vw;
+        left: 27.5vw;
+        font-size: 2.5vw;
+    }
+    #C {
+        height: 5vw;
+        width: 5vw;
+        font-size: 3vw;
+    }
+    #D {
+        height: 5vw;
+        width: 5vw;
+        top: 27.5vw;  
+        font-size: 2.5vw;
+        border-right: 6px solid blue;
+    }
+    #E {
+        height: 7vw;
+        width: 7vw;
+        top: 27.5vw;
+        left: 27.5vw;
+        font-size: 2.5vw;
+    }
+    #F {
+        height: 5vw;
+        width: 5vw;
+        top: 27.5vw;
+        font-size: 2.5vw;
+    }
+    #G {
+        height: 5vw;
+        width: 5vw;
+        font-size: 2.5vw;
+    }
+    #H {
+        height: 5vw;
+        width: 5vw;
+        font-size: 2.5vw;
+        left: 27.5vw;
+        margin-bottom: 2.5vw;
+    }
+    #I {
+        height: 10vw;
+        width: 5vw;
+        font-size: 2.5vw;
+    }
+    #I1 {
+        height: 5vw;
+        width: 5vw;
+    }
+}
+@media screen and (max-width: 768px){
+  .div1 {
+    height: 70vw;
+    width: 70vw;     
+    }
+    .div2 {
+        height: 70vw;
+        width: 70vw;  
+    }
+    #A {
+        height: 6vw;
+        width: 6vw;
+        font-size: 2.5vw;
+    }
+    #B {
+        height: 6vw;
+        width: 6vw;
+        left: 32vw;
+        font-size: 2.5vw;
+    }
+    #C {
+        height: 6vw;
+        width: 6vw;
+        font-size: 3vw;
+    }
+    #D {
+        height: 6vw;
+        width: 6vw;
+        top: 32vw;  
+        font-size: 2.5vw;
+        border-right: 6px solid blue;
+    }
+    #E {
+        height: 8vw;
+        width: 8vw;
+        top: 32vw;
+        left: 32vw;
+        font-size: 2.5vw;
+    }
+    #F {
+        height: 6vw;
+        width: 6vw;
+        top: 32vw;
+        font-size: 2.5vw;
+    }
+    #G {
+        height: 6vw;
+        width: 6vw;
+        font-size: 2.5vw;
+    }
+    #H {
+        height: 6vw;
+        width: 6vw;
+        font-size: 2.5vw;
+        left: 32vw;
+        margin-bottom: 3vw;
+    }
+    #I {
+        height: 12vw;
+        width: 6vw;
+        font-size: 2.5vw;
+    }
+    #I1 {
+        height: 6vw;
+        width: 6vw;
+    }
+}
+@media screen and (max-width: 480px){
+  .div1 {
+    height: 90vw;
+    width: 90vw;     
+    }
+    .div2 {
+        height: 90vw;
+        width: 90vw;  
+    }
+    #A {
+        height: 8vw;
+        width: 8vw;
+        font-size: 3.5vw;
+    }
+    #B {
+        height: 8vw;
+        width: 8vw;
+        left: 41vw;
+        font-size: 3.5vw;
+    }
+    #C {
+        height: 8vw;
+        width: 8vw;
+        font-size: 4vw;
+    }
+    #D {
+        height: 8vw;
+        width: 8vw;
+        top: 41vw;  
+        font-size: 3.5vw;
+        border-right: 8px solid blue;
+    }
+    #E {
+        height: 10vw;
+        width: 10vw;
+        top: 41vw;
+        left: 41vw;
+        font-size: 3.5vw;
+    }
+    #F {
+        height: 8vw;
+        width: 8vw;
+        top: 41vw;
+        font-size: 3.5vw;
+    }
+    #G {
+        height: 8vw;
+        width: 8vw;
+        font-size: 3.5vw;
+    }
+    #H {
+        height: 8vw;
+        width: 8vw;
+        font-size: 3.5vw;
+        left: 41vw;
+        margin-bottom: 5vw;
+    }
+    #I {
+        height: 16vw;
+        width: 8vw;
+        font-size: 3.5vw;
+    }
+    #I1 {
+        height: 8vw;
+        width: 8vw;
+    }
+}
