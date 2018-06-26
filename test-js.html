@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEST - JS</title>
+	<script type="text/javascript" src=".js/test.js"></script>
+</head>
+<body>
+	<h1>Javascript</h1>
+	<h2>1, What are the differences between a variable that is: `null`, `undefined`?</h2>
+	<p>The undefined value is a primitive value used when a variable has not been assigned a value. </p>
+	<code>
+		var TestVar; <br>
+		alert(TestVar);<br>
+	</code>
+	<p>The null value is a primitive value that represents the null, empty, or non-existent reference</p>
+	<code>
+		var TestVar = null;<br>
+		alert(TestVar);<br>
+	</code>
+	<h2>2, What is `use strict`? what are the advantages and disadvantages to using it?</h2>
+	<strong>Advantages:</strong>
+	<p>It will catch common coding errors, which will throw exceptions.</p>
+	<p>When vulnerable actions are performed, it throws errors.</p>
+	<p>It will show,let us know and disable the features that are poorly coded.</p>
+	<strong>Disadvantages:</strong>
+	<p>It will not allow us to use the “with” statement. This statement will causes security and performance problems.</p>
+	<p>It will not allow us to use the “arguments.caller” property, due to security concernsWe do not have an alternate to this property, but we can hard code an additional parameter.</p>
+	<h2>3, What are the differences between `==` and `===`? Write an example for each case (if any)?</h2>
+	<p>`==`: it only compare value.</p>
+  <p>`===`: it compare value and type.</p>
+  <code>
+    "abc" == new String("abc")    // true <br>
+    "abc" === new String("abc")   // false
+  </code>
+	<h2>4, What is different between declaration: `var`, `const` and `let`?</h2>
+	<p>`var`: The variable statement declares a variable, optionally initializing it to a value.</p>
+  <p>`const`: Is constant, variable won’t be reassigned.</p>
+  <p>`let`:'Let' appeared in ES6, it not exist ES5 to before, it declares a block scope local variable, optionally initializing it to a value.</p>
+</body>
+</html>
